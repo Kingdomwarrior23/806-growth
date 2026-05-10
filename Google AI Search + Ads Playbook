@@ -1,0 +1,277 @@
+# Google AI Search + Ads Playbook (Neil Patel Breakdown)
+
+*Source: Neil Patel video on 8 fixes after Google’s AI updates. Interpreted as an internal strategy doc, not a generic summary.*
+
+---
+
+## Big Picture: One Website, Two Systems, One Brain
+
+Historically, most companies split thinking like this:
+
+- SEO team: “We rank pages.”
+- Paid team: “We buy traffic.”
+
+Google’s latest AI-driven changes (Performance Max, AI Max for Search, auto-generated assets, URL expansion) ignore that separation.[web:93][web:96][web:99][web:102]  
+
+Google now uses the **same website content** to:
+
+- understand what you do,
+- generate ad text and video assets,
+- choose landing pages automatically,
+- and evaluate conversion performance to steer smart bidding.[web:93][web:96][web:99][web:102]
+
+So every fix you make to your site now affects:
+
+- organic rankings and AI overviews,
+- Performance Max (and AI Max) performance and cost per conversion.[web:89][web:93][web:99][web:102]
+
+This video’s eight steps are best understood as:
+
+- Steps 1–4: “Fix what’s broken so AI can actually use your site properly.”
+- Steps 5–8: “Build durable advantages that are hard for competitors to copy.”
+
+---
+
+## Step 1 — Make Your Website Fast (Core Web Vitals)
+
+Google’s AI and Smart Bidding rely heavily on **conversion rate**.[web:93][web:99] Slow pages tank conversions and bounce users before anything can happen.  
+
+Google promotes Core Web Vitals as key UX signals: Largest Contentful Paint (LCP), Interaction to Next Paint (INP, replacing FID), and Cumulative Layout Shift (CLS).[web:89][web:91][web:95]
+
+**Why this matters now:**
+
+- If your landing pages take 4–5+ seconds to load, users bounce before converting.[web:90][web:98]
+- Smart bidding sees low conversion rate and sends less traffic or pays more per conversion.[web:90][web:93]
+- For organic, poor Core Web Vitals can drag rankings.[web:89][web:91][web:95]
+
+**What to actually do:**
+
+1. **Run PageSpeed Insights** on your top landing pages (SEO + ads).[web:88][web:89][web:90]
+2. Focus on pages with:
+   - LCP > 2.5s,
+   - poor INP,
+   - high CLS.[web:89][web:90][web:98]
+3. Fix the usual bottlenecks:
+   - compress/resize images or serve them in next-gen formats (WebP),
+   - remove or defer non-critical JavaScript,
+   - minify CSS/JS/HTML,
+   - simplify heavy hero sections and above-the-fold elements.[web:90][web:92][web:98]
+
+**Core idea:** One speed fix benefits both SEO and ads at the same time.
+
+---
+
+## Step 2 — Clean Up Website Copy (Because AI Reuses It)
+
+Google’s newer ad modes (Performance Max, AI Max for Search, automatically generated assets) **scan your pages** and dynamically create headlines and descriptions from your content.[web:93][web:96][web:102]
+
+If your H1 and titles say things like:
+
+- “Welcome to our website”
+- “Our solutions”
+- jargon with no clear benefit
+
+…then AI has bad raw material and builds vague, low-CTR ads.
+
+**Key mistakes:**
+
+- Writing titles only for bots (keyword stuffing, no hook).
+- Generic headings that don’t clearly state who you help and with what.
+- No clear value prop or benefit in above-the-fold text.
+
+**Practical fix:**
+
+For each important page (home, main services, top landing pages):
+
+1. Look at the **H1 + title tag** and ask:  
+   “If this showed up as a Google ad headline, would a human click it?”
+2. If not, rewrite it so it clearly answers:
+   - Who is this for?
+   - What result or problem do you solve?
+   - What makes you different?
+
+You are now writing **website copy as ad copy source material**.
+
+---
+
+## Step 3 — Add Real Images and Short Videos
+
+Performance Max uses image and video assets across YouTube, Display, Discover, and more.[web:93][web:99] If you don’t upload strong ones:
+
+- Google will **autogenerate video** from whatever’s on your site.[web:93]
+- It will pull random images, including weak stock art, to build creatives.[web:93][web:96]
+
+That can hurt click-through rate and brand perception, even if you never meant to run those exact creatives.
+
+**What to do:**
+
+- Add **real photos** on key pages:
+  - your team,
+  - your work / product,
+  - real customers / finished jobs.
+- Shoot **simple 15–30 second videos** (phone is fine) that:
+  - show the product/service in action,
+  - state who you help and how,
+  - include a simple call to action.
+
+Upload those into Google Ads and ensure those same assets are present on your landing pages so AI has good, on-brand material.[web:93][web:99]
+
+This also helps with **multimodal search**, where Google can surface video directly in AI answers and SERPs.[web:99]
+
+---
+
+## Step 4 — Fix Your Product Feed (If You Sell Online)
+
+For e‑commerce, Performance Max heavily depends on your **Google Merchant Center product feed**.[web:93][web:99] That feed tells Google what each product is and when to show it.
+
+Most brands under-fill fields, leaving AI blind on details.
+
+**Key feed fields that matter:**
+
+- product title and description,
+- brand,
+- color, size, material,
+- price and availability,
+- GTIN/MPN where relevant.[web:93][web:97][web:100]
+
+**Why it matters:**
+
+- Richer product data lets AI match long-tail queries more accurately (“blue waterproof hiking jacket size M”) and shows more relevant items.[web:93][web:97]
+- Detailed feeds are tied to better ad quality and higher CTR through richer snippets and shopping placements.[web:97][web:100]
+
+**Fix:**
+
+- Audit your feed and aim to fill **every relevant field** for top-selling products.
+- Make titles and descriptions human-readable and keyword-rich but not spammy.
+
+---
+
+## Step 5 — Add Schema Markup + Trust Extensions
+
+Google’s AI already tries to infer what’s on your pages. **Schema markup** (structured data) lets you explicitly label:
+
+- products,
+- services,
+- FAQs,
+- reviews and ratings,
+- organization details.[web:94][web:97][web:100]
+
+Benefits:
+
+- Eligibility for **rich results** (stars, price, FAQ dropdowns, breadcrumbs, video snippets) in organic search, which often improves CTR when competitors don’t have them.[web:94][web:97][web:100]
+- Better data for AI-powered ad extensions: extensions can surface pricing, ratings, and FAQ-style info directly in ads and surfaces.[web:93][web:96][web:97]
+
+**What to implement first:**
+
+- For local/service businesses:
+  - `LocalBusiness` / `Service`,
+  - `FAQPage` where you already have FAQs,
+  - `Review` / `AggregateRating` if you show real reviews on-page.[web:94][web:97][web:100]
+- For e‑commerce:
+  - `Product` with price, availability, and `AggregateRating`.[web:97][web:100]
+
+Have dev/SEO add schema to the **top 5–10 money pages** and validate with Google’s Rich Results Test.[web:94][web:97][web:100]
+
+Note: rich FAQ answers can sometimes reduce clicks if users get full answers in the SERP; measure impact, don’t assume.[web:94][web:100]
+
+---
+
+## Step 6 — Replace Many Thin Pages with One Deep Page
+
+Old playbook:
+
+- 20–30 micro-posts on “best CRM for X”, “best CRM for Y”.
+
+New reality:
+
+- Google’s AI and URL expansion in campaigns look for **the one best page** that matches broad intent and uses that across organic and ads.[web:96][web:102]
+
+If you have scattered content:
+
+- AI may struggle to pick a clear landing page,
+- you split signals across similar URLs,
+- PMAX/AI Max might send traffic to suboptimal pages.[web:96][web:102]
+
+**Fix:**
+
+1. Pick your **most important topics** (e.g., “small business CRM”, “home AC repair in Lubbock”).
+2. Build a **single, deep pillar page** per topic:
+   - clear sections,
+   - table of contents,
+   - FAQs,
+   - internal links to supporting detail if needed.
+3. Redirect or consolidate old, thin posts into this pillar.
+
+Benefits:
+
+- Easier for AI to map varied conversational queries to one strong page.[web:96][web:102]
+- Helps AI Max/URL expansion send paid traffic to the right landing page more consistently.[web:96][web:102]
+
+---
+
+## Step 7 — Build Real E‑E‑A‑T and Brand Trust Signals
+
+Google talks about **Experience, Expertise, Authoritativeness, and Trustworthiness (E‑E‑A‑T)** as a lens for evaluating content quality.[web:95][web:98]
+
+Patel’s point: you can’t fake this with spammy backlinks anymore. Google and users both look for real-world trust:
+
+- genuine reviews and ratings,
+- clear author/about pages,
+- media mentions or case studies,
+- professional credentials where relevant,
+- detailed “who we are” and “how we work” content.[web:94][web:95][web:97][web:98]
+
+These signals create **implicit brand trust** that can:
+
+- help organic rankings and AI surfacing,
+- improve ad quality and conversion, because users are less skeptical when they arrive.[web:94][web:97]
+
+**What to prioritize:**
+
+- Showcase real people behind the business and content (bios, photos).
+- Highlight real customer stories and reviews (not just generic testimonials).
+- If in a YMYL / sensitive niche (finance, health, legal), emphasize credentials and compliance.
+
+---
+
+## Step 8 — Get SEO and Paid in the Same Room Monthly
+
+Biggest operational point: **Google treats your site as one system; you probably don’t.**
+
+Typical problem:
+
+- Paid team optimizes for conversions and search terms inside Google Ads.
+- SEO team looks at search console and analytics.
+- They rarely compare notes, even though AI is using all of it together.[web:93][web:96][web:99][web:102]
+
+**Monthly meeting loop:**
+
+1. **From paid to SEO:**
+   - Share search terms that actually convert in ads.
+   - SEO builds or improves content targeting those topics.
+   - Those pages become stronger landing pages → better Quality Score / more relevant ads → lower costs over time.[web:93][web:96][web:99][web:102]
+
+2. **From SEO to paid:**
+   - Share queries and pages that generate irrelevant traffic.
+   - Paid team adds negatives and tightens targeting to avoid wasted spend.
+   - Budget gets reallocated to better terms quickly.[web:93][web:96][web:99][web:102]
+
+That feedback loop turns these 8 fixes from one-time tasks into a **self-improving machine**:
+
+- site gets faster and clearer → better conversions,
+- AI sees better performance → spends more efficiently,
+- data from ads informs SEO, and SEO improvements reinforce ads.
+
+---
+
+## How This Fits 806 Growth (Optional Internal Note)
+
+For 806 Growth’s local clients:
+
+- Steps 1–3: matter for **LSA landing pages and GBP-linked pages**; speed + clear copy + honest visuals make calls and form fills convert better.[web:89][web:90][web:93]
+- Step 5 + 7: align with local E‑E‑A‑T and schema for LocalBusiness, reviews, and FAQs.[web:94][web:97][web:100]
+- Step 8: is your internal operating model—LSA/paid performance should inform what local content and FAQs you create.
+
+You can turn this into a higher-level pitch:
+
+> “Google’s AI now reads your whole site and uses it for both ads and search. We don’t just run LSA; we tune your website so the AI actually wants to send people there, and your cost per lead goes down over time.”
