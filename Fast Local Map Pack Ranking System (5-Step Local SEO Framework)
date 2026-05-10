@@ -1,0 +1,230 @@
+# Fast Local Map Pack Ranking System (5-Step Local SEO Framework)
+
+*Source: local SEO practitioner outlining a 5-step system to move from invisible to top-3 in the map pack in ~2 weeks.*
+
+---
+
+## Core Idea: Google’s Local Algorithm Solves a Different Problem
+
+Traditional SEO focuses on ranking web pages. Google’s **local algorithm** cares about something else:  
+
+> “Can this business actually drive over and do the work for this searcher, in this area, and can it be trusted to do a good job?”
+
+That means Google looks for three kinds of proof:
+
+1. **Proof you’re a real business**  
+2. **Proof you serve the area**  
+3. **Proof other local entities recognize you**
+
+If any of those are weak, you can sit at positions 4–10+ even with great content and tons of reviews.[web:82][web:85]
+
+This framework focuses on five steps to feed those three proofs to Google quickly.
+
+---
+
+## Step 1 — Build the “Core 30” Service + Category Pages
+
+Most local sites are either:
+
+- tiny (5–6 generic pages), or  
+- bloated with 200–400 low-value blog posts.
+
+Neither structure tells Google clearly what you actually **do** and where.
+
+The fix: build a **Core 30** set of pages that map tightly to your Google Business Profile (GBP):
+
+- One page for **each primary category** on the GBP.
+- One page for **each service** listed in GBP services.
+- Each page’s title and H1 include:
+  - the **exact GBP service/category phrase**, and  
+  - the **city name**.
+
+Example:
+
+- GBP service: `Air conditioning repair`  
+- Page title: `Air Conditioning Repair in Fort Wayne, IN | [Brand]`  
+
+The point is not to spam keywords; it’s to make the mapping **unambiguous** so Google sees the website and the GBP “talking about the same thing,” which strengthens confidence you’re a real, relevant business for that intent.[web:79][web:81][web:82]
+
+**Tooling pattern from the transcript:**
+
+- Use a local rank tracking “heat map” tool (like LeadSnap) to see where you’re strong vs weak across the city.
+- Use a browser extension (like GBP Everywhere) to pull all categories and services from the GBP.
+- Use a crawler (Screaming Frog) to see what pages already exist and where gaps are.
+
+This reveals:
+
+- Missing category/service pages
+- Mismatched titles vs GBP wording
+- Thin or generic service coverage
+
+---
+
+## Step 2 — Use AI to Generate Locally-Relevant Service Content
+
+Once the gaps are known, content must prove to Google that you are **actually local**, not a generic info site.
+
+Difference in content intent:
+
+- Not “what is HVAC?” blog posts.
+- Instead, service pages that weave in:
+  - local neighborhoods,
+  - local weather patterns,
+  - typical building types/codes,
+  - local pain points (e.g., “Fort Wayne winters,” “Kansas City humidity”).
+
+AI can draft this if it is **prompted with the right inputs**, such as:
+
+- the specific service (e.g., “heating equipment supplier”),
+- the exact city,
+- the GBP categories and services,
+- any important local details.
+
+The transcript’s workflow:
+
+- Crawl the site with Screaming Frog (free up to 500 URLs).
+- Export internal URLs and link data.
+- Feed the crawl data plus homepage content plus GBP categories/services into a strong LLM (e.g., Claude Sonnet/Opus).
+- Use a robust prompt to:
+  - audit structural gaps, and  
+  - then generate new service/category pages that are locally targeted.
+
+Key nuance: the AI is used **after** a structured crawl and GBP analysis, not instead of it, so the pages line up with the real site architecture and GBP.
+
+---
+
+## Step 3 — Back Each New Page With At Least One External Link
+
+AI text alone is cheap and easy. Google can’t reliably “detect AI,” but it can detect **low-quality, unsupported content**.[web:94][web:98]
+
+The missing ingredient for most agencies:
+
+- They create lots of AI-generated pages.
+- They do **not** give those pages any external validation.
+- Google sees unlinked new URLs on a site and may treat them as low priority.
+
+The method described:
+
+- For every new service/category page, obtain **at least one decent external link**.
+- Links don’t have to be extremely high-end, but they must be real and relevant enough to show the page isn’t orphaned AI slop.
+
+In the transcript, that’s handled via a private network and a fulfillment site (icecreamtruck.shop) selling PBN links. From a strategic standpoint, the deeper lesson is:
+
+> Each important new page should have at least one external signal pointing at it, so Google has reasons to crawl and value it.
+
+If 806 Growth prefers, those could be:
+
+- niche directories,  
+- relevant blogs,  
+- local partner sites,  
+- or other non-spammy sources instead of PBNs.
+
+---
+
+## Step 4 — Build “Super Citations” That Are Hard to Fake
+
+Typical local SEO citations:
+
+- Easy, mass-submitted listings on common directories (Yelp, generic data aggregators).
+
+“Super citations” in the video = listings that:
+
+- Require verification,
+- Sit inside major ecosystems (e.g., Bing Places, Apple Maps),
+- Feed into car navigation systems, voice assistants, and other map providers.[web:82][web:85]
+
+These matter because:
+
+- They make your business show up in more **trusted local data sources**, not just cheap directories.
+- They provide additional proof to both Google and AI tools (like ChatGPT when linked with browsing/search plugins) that you are a real, established local entity.
+
+Workflow shown:
+
+- Use a tool (again, LeadSnap in the transcript) that:
+  - pulls GBP business details,
+  - pushes consistent NAP data out to 50+ citation sources,
+  - tracks status (live, submitted, updated).
+
+Strategic takeaway:
+
+- Ensure NAP consistency and verification across major map/search ecosystems, not just a long tail of low-trust directories.[web:79][web:81][web:82]
+
+---
+
+## Step 5 — Get Real Local “Authority” Links (Offline-First Tactics)
+
+Beyond generic citations and PBN-style links, Google and AI models are more impressed by **real local signals**:
+
+- Local chamber of commerce listings,
+- Sponsorships of local events / youth sports,
+- City/municipality “preferred vendor” lists,
+- Local non-profit partnerships.
+
+These provide:
+
+- Strong, trusted domains with local relevance,
+- Brand mentions in truly local contexts,
+- Signals that the business is actually embedded in the community.
+
+Example from the transcript:
+
+- Personal injury attorney in New Orleans stuck around position 8.
+- After joining the chamber and sponsoring a local event (“Bayou Bash”), jumped into the top 3 and immediately landed a high-value case.
+
+The practitioner then uses another AI prompt to:
+
+- Analyze the city and niche,
+- Generate a list of:
+  - relevant local organizations (chambers, Rotary, trade groups),
+  - events to sponsor,
+  - directories and associations to join.
+
+That becomes a **local link prospecting list**.
+
+---
+
+## How This Fits With 806 Growth’s System
+
+For 806 Growth, this video plugs into the “Maps / GBP Growth Layer” like this:
+
+- Your **Core 30** = one GBP-matched service page per real service you want to rank for, per city, using AI to move fast but paired with external validation.
+- Your **AI tools** (Claude, etc.) do the heavy analysis and drafting, powered by Screaming Frog exports and GBP data.
+- Your **citation layer** focuses first on high-trust systems (Bing, Apple Maps, major aggregators) rather than only low-tier directories.[web:82][web:85]
+- Your **local authority link layer** is built from chambers, sponsorships, and local organizations, which also double as sales proof for the business owner.
+
+Positioning language you could use with a local client:
+
+> “Google doesn’t just want blog posts. It wants proof you’re real, that you actually serve each neighborhood you claim, and that your city recognizes you. We build pages that match your Google Business Profile, push you into major map systems, and then land you real local links from chambers and events so the map pack stops ignoring you.”
+
+---
+
+## Checklist Summary (For Fast Implementation)
+
+1. **Crawl & Map**
+   - Screaming Frog crawl (≤ 500 URLs is fine on free version).
+   - Export internal URLs + links.
+   - Export GBP categories and services.
+   - Generate a rank heat map for core terms.
+
+2. **Gap Analysis (AI-Assisted)**
+   - Feed crawl + homepage + GBP data into an LLM.
+   - Identify missing category/service pages, title mismatches, and internal linking issues.
+
+3. **Core 30 Buildout**
+   - Create one service page per GBP category/service + city.
+   - Use AI with strong prompts to generate locally grounded content.
+   - Ensure titles + H1s clearly match GBP language.
+
+4. **Initial Authority**
+   - Obtain at least one decent external link to each new important page.
+
+5. **Super Citations**
+   - Push consistent NAP data to high-trust citation platforms (Bing, Apple Maps, etc.).
+   - Monitor status until live.
+
+6. **Local Authority Links**
+   - Use AI to list local chambers, associations, events, and directories.
+   - Join/sponsor a handful of high-signal ones.
+
+7. **Monitor Heat Map**
+   - Re-run the local rank map to see coverage shifts (aiming for “green” across your money neighborhoods).
